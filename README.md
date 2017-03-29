@@ -4,9 +4,9 @@ big integers multuplication
 
 big integers compare
 
-big integers subtraction
+big integers subtraction (FIRST NUMBER MUST BE BIGGER! USE PREVIOUS FUNCTION: COMPARE) 
 
-big integers addition
+big integers addition (FIRST NUMBER MUST BE BIGGER!)
 
 data of any size 
 
