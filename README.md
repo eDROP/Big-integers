@@ -6,7 +6,7 @@ big integers compare
 
 big integers subtraction (FIRST NUMBER MUST BE BIGGER! USE PREVIOUS FUNCTION: COMPARE) 
 
-big integers addition (FIRST NUMBER MUST BE BIGGER!)
+big integers addition (FIRST NUMBER MUST BE BIGGER OR EQUAL)
 
 data of any size 
 
