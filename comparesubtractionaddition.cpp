@@ -55,7 +55,7 @@ using namespace std;
                                              for(int aa=1; aa<=firstnumelem+1; aa++) firstArray[aa-1]=firstArray[aa];
 
                                            }
-										                firstnumelem+=1;
+										                
                                     return firstnumelem;
                                    }
 
