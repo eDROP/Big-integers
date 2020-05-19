@@ -40,14 +40,41 @@ using namespace std;
                                            if(firstArray[fif]<secondArray[sis])
                                            {
                                             firstArray[fif]=firstArray[fif]+10-secondArray[sis];
-                                            firstArray[fif-1]-=1;
+                                            if(ffirstArray[fif-1]>0)
+                                           {
+                                          
+                                             ffirstArray[fif-1]-=1;
                                            }
                                            else
-                                           {
-                                               firstArray[fif]=firstArray[fif]-secondArray[sis];
-                                           }
+                                          {
 
-                                          }
+
+                                             for(int r=fif-1; r>=0; r--)
+                                             {
+
+                                                 if(ffirstArray[r]>0)
+                                                 {
+                                                 ffirstArray[r]--;
+                                                 break;
+                                                 }
+                                                 else
+                                                 {
+                                                  ffirstArray[r]=9;
+                                                 }
+                                         }
+                                        }
+                                       }
+                                       else
+                                       {
+                                         ffirstArray[fif]=ffirstArray[fif]-ssecondArray[sis];
+                                        }
+                                       }
+      
+                                         
+                                           
+
+
+
                                             while(firstArray[0]==0)
                                            {
 
